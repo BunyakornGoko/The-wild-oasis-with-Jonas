@@ -1,12 +1,5 @@
 import styled from "styled-components"
-import React, {
-  cloneElement,
-  createContext,
-  useContext,
-  useEffect,
-  useRef,
-  useState
-} from "react"
+import React, { cloneElement, createContext, useContext, useState } from "react"
 import { HiXMark } from "react-icons/hi2"
 import { createPortal } from "react-dom"
 import { useOutsideClick } from "../hooks/useOutsideClick"
